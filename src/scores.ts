@@ -155,7 +155,7 @@ export class ScoresAndAttributesApi {
       data.ssn = data.ssn!.replace(/-/g, '')
     }
     if (!isEmpty(data.phone)) {
-      data.phone = data.phone!.replace(/[-\(\) ]/g, '')
+      data.phone = data.phone!.replace(/[-() ]/g, '')
     }
     if (!isEmpty(data.dob)) {
       const hits = data.dob!.match(/^([0-9]{4})-([0-9]{2})-([0-9]{2})$/)!
