@@ -74,7 +74,7 @@ import { Equifax } from '../src/index'
     city: 'SPOKANE VALLEY',
     state: 'WA',
     zip: '99216',
-    phone: '770-555-1212'
+    phone: '(770) 555-1212'
   }
 
   console.log('doing a soft pull from Equifax for a Normal user...')
